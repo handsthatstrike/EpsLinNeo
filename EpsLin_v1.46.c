@@ -60,7 +60,7 @@
 //          of the GetEFEs routine caused *some* EFEs not to extract 
 //          properly; routine was given an overhaul.
 //        - Corrected SuperDisk support in PutEFE/GetMedia/EraseEFEs.
-//        - Remove path from filename when printing report.
+//        - Removed path from filename when printing report.
 //          
 //  v.1.45: (forked by Thomas Arashikage)
 //        - [Windows] Tweaks to help compile under Cygwin.
