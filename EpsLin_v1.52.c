@@ -51,16 +51,16 @@
 //       - Use 's' media type in Get and in GetFat/SetFat
 //
 // vX.XX: [FUTURE]
-//       - TODO: allow a sector offset to be supplied; needed to 
+//       - TODO: allow a sector offset to be supplied; needed to
 //               handle direct access of SCSI2SD-ready SD cards
-//       - TODO: check for Ensoniq volume signatures prior to any 
+//       - TODO: check for Ensoniq volume signatures prior to any
 //               non-Format related routines
 //       - TODO: add recursive mode for GetEFE
 //       - TODO: create named sub-directories when GetEFE is used
 //               such as 'root', etc. to hold EFEs on export
 //
 //	v1.52:
-//       - Made newline characters compatible with Windows apps, 
+//       - Made newline characters compatible with Windows apps,
 //         such as Notepad, et al.
 //
 //  v1.51:
@@ -244,11 +244,11 @@
 #endif
 
 #ifdef __CYGWIN__
-#define VERSION     "v1.51 (Beta)"
+#define VERSION     "v1.52 (Beta)"
 #elif __APPLE__
-#define VERSION     "v1.51 (Alpha)"
+#define VERSION     "v1.52 (Alpha)"
 #else   // Linux
-#define VERSION     "v1.51"
+#define VERSION     "v1.52"
 #endif
 
 // This idea is too close to commercial "vanity" spam, so has been reverted to classic 0x6D/0xB6 fill pattern.
