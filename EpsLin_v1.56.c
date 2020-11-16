@@ -260,11 +260,11 @@
 #endif
 
 #ifdef __CYGWIN__
-#define VERSION     "v1.55 (Beta)"
+#define VERSION     "v1.56 (Beta)"
 #elif __APPLE__
-#define VERSION     "v1.55 (Beta)"
+#define VERSION     "v1.56 (Beta)"
 #else   // Linux
-#define VERSION     "v1.55"
+#define VERSION     "v1.56"
 #endif
 
 // This idea is too close to commercial "vanity" spam, so has been reverted to classic 0x6D/0xB6 fill pattern.
@@ -418,10 +418,10 @@ static char *EpsTypes[50]={
 
   // 30        31        32        33        34        35        36        37        38        39
   "ASR-Bnk","ASR-Trk","ASR-OS ","ASR-Eff","ASR-Mac","TS-6Pro","TS-60Pg","TS120Pg","TS-1Pre","TS-60Ps",
-  
+
   // 40        41        42        43        44        45        46        47        48        49
   "TS120Ps","TS-1Seq","TS30Seq","TS60Seq","ENS44xx","ENS45xx","ENS46xx","ENS47xx","ENS48xx","ENS49xx",
-  
+
 };
 
 // 00 (0x00) = Unused/Blank/Empty
